@@ -8,6 +8,7 @@ const allRules = {
   "react-hooks-deps": mock,
   "react-hooks": mock,
   "react-no-useless-fragment": mock,
+  "typeof-undefined": mock,
 };
 
 module.exports = {
@@ -28,6 +29,7 @@ module.exports = {
         "fb-www/react-hooks-deps": 0,
         "fb-www/react-hooks": 0,
         "fb-www/react-no-useless-fragment": 0,
+        "fb-www/typeof-undefined": 0,
       },
     },
     all: {
