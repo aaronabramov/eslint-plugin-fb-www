@@ -10,6 +10,7 @@ const allRules = {
   "react-no-useless-fragment": mock,
   "typeof-undefined": mock,
   "cx-concat": mock,
+  "flow-readonly-object": mock,
 };
 
 module.exports = {
@@ -32,6 +33,7 @@ module.exports = {
         "fb-www/react-no-useless-fragment": 0,
         "fb-www/typeof-undefined": 0,
         "fb-www/cx-concat": 0,
+        "fb-www/flow-readonly-object": 0,
       },
     },
     all: {
