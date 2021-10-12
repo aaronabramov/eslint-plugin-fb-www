@@ -11,7 +11,8 @@ const allRules = {
   "typeof-undefined": mock,
   "cx-concat": mock,
   "flow-readonly-object": mock,
-  "unsafe-html": mock,
+  "no-unsafe-html": mock,
+  "no-null-fallback-for-error-boundary": mock,
 };
 
 module.exports = {
@@ -36,6 +37,7 @@ module.exports = {
         "fb-www/cx-concat": 0,
         "fb-www/flow-readonly-object": 0,
         "fb-www/no-unsafe-html": 0,
+        "fb-www/no-null-fallback-for-error-boundary": 0,
       },
     },
     all: {
