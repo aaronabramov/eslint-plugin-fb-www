@@ -14,6 +14,7 @@ const allRules = {
   "no-unsafe-html": mock,
   "no-null-fallback-for-error-boundary": mock,
   "no-unused-catch-bindings": mock, 
+  "no-uninitialized-properties": mock,
 };
 
 module.exports = {
@@ -39,7 +40,8 @@ module.exports = {
         "fb-www/flow-readonly-object": 0,
         "fb-www/no-unsafe-html": 0,
         "fb-www/no-null-fallback-for-error-boundary": 0,
-        "fb-www/no-unused-catch-bindings": mock,
+        "fb-www/no-unused-catch-bindings": 0,
+        "fb-www/no-uninitialized-properties": 0,
       },
     },
     all: {
