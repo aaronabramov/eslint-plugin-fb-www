@@ -15,6 +15,9 @@ const allRules = {
   "no-null-fallback-for-error-boundary": mock,
   "no-unused-catch-bindings": mock, 
   "no-uninitialized-properties": mock,
+  "relay-no-coarse-eslint-disable": mock,
+  "relay-mutation-input-name": mock,
+  "unused-fields": mock,
 };
 
 module.exports = {
@@ -42,6 +45,9 @@ module.exports = {
         "fb-www/no-null-fallback-for-error-boundary": 0,
         "fb-www/no-unused-catch-bindings": 0,
         "fb-www/no-uninitialized-properties": 0,
+        "fb-www/relay-no-coarse-eslint-disable": 0,
+        "fb-www/relay-mutation-input-name": 0,
+        "relay/unused-fields": 0,
       },
     },
     all: {
