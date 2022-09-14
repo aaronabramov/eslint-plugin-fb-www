@@ -17,6 +17,7 @@ const allRules = {
   "no-uninitialized-properties": mock,
   "relay-no-coarse-eslint-disable": mock,
   "relay-mutation-input-name": mock,
+  "react-no-unused-state-hook": mock,
 };
 
 module.exports = {
@@ -46,6 +47,7 @@ module.exports = {
         "fb-www/no-uninitialized-properties": 0,
         "fb-www/relay-no-coarse-eslint-disable": 0,
         "fb-www/relay-mutation-input-name": 0,
+        "fb-www/react-no-unused-state-hook": 0,
       },
     },
     all: {
